@@ -23,8 +23,8 @@ jobs:
         rm -rf ~/Library/Developer/Xcode/Products
     
     # 选择 Xcode 版本
-    - name: Select Xcode 26.2
-      run: sudo xcode-select -s /Applications/Xcode_26.2.app
+    - name: Select Xcode 26.0
+      run: sudo xcode-select -s /Applications/Xcode_26.0.app
       
     # 设置 CocoaPods
     - name: Setup CocoaPods
