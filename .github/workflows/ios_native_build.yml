@@ -106,11 +106,11 @@ jobs:
         fi
         
         echo "使用 workspace: $WORKSPACE_FILE"
-        echo "使用 scheme: Riverla"
+        echo "使用 scheme: Weli"
         
         # 构建和归档
         xcodebuild -workspace "$WORKSPACE_FILE" \
-          -scheme "Riverla" \
+          -scheme "Weli" \
           -configuration "Release" \
           -destination 'generic/platform=iOS' \
           -archivePath "$PWD/build/App.xcarchive" \
